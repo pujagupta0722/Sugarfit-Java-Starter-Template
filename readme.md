@@ -14,17 +14,11 @@ This project is a production-ready Spring Boot service starter template designed
 
 ---
 
-### Run Locally (Without Docker)
+### Run Locally
 ```bash
 mvn clean package
 java -jar target/*.jar 
 The service will start on: http://localhost:8080
-```
-
-### Run Using Docker
-```bash
-make docker-build
-make docker-run
 ```
 
 ### Verify the Service
