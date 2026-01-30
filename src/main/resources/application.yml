@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: sugarfit-service-template
+
+logging:
+  level:
+    root: INFO

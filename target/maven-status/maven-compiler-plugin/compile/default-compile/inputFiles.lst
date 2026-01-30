@@ -1,0 +1,7 @@
+/Users/pujagupta/sugarfit-service-template /template/src/main/java/com/sugarfit/template/Application.java
+/Users/pujagupta/sugarfit-service-template /template/src/main/java/com/sugarfit/template/controller/ExampleController.java
+/Users/pujagupta/sugarfit-service-template /template/src/main/java/com/sugarfit/template/controller/HealthController.java
+/Users/pujagupta/sugarfit-service-template /template/src/main/java/com/sugarfit/template/dto/ExampleRequest.java
+/Users/pujagupta/sugarfit-service-template /template/src/main/java/com/sugarfit/template/dto/ExampleResponse.java
+/Users/pujagupta/sugarfit-service-template /template/src/main/java/com/sugarfit/template/exception/GlobalExceptionHandler.java
+/Users/pujagupta/sugarfit-service-template /template/src/main/java/com/sugarfit/template/service/ExampleService.java
