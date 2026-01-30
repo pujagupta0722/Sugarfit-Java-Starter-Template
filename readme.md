@@ -17,13 +17,18 @@ This project is a production-ready Spring Boot service starter template designed
 ```bash
 mvn clean package
 java -jar target/*.jar 
-The service will start on: http://localhost:8080
 ```
+The service will start on: http://localhost:8080
 
 ### Verify the Service
 ### Health Check
+PostMan
 ```bash
 GET http://localhost:8080/health
+```
+Terminal
+```bash
+curl http://localhost:8080/health
 ```
 ✅ You should see
 ```
@@ -33,13 +38,25 @@ Response
 }
 ```
 ### Example Data Processor
+PostMan
 ```bash
+
 POST http://localhost:8080/example
 Request 
 {
   "userId": "123",
   "value": 42
 }
+```
+Terminal
+```bash
+
+curl --location 'http://localhost:8080/example' \
+--header 'Content-Type: application/json' \
+--data '{
+  "userId": "123",
+  "value": 42
+}'
 ```
 ✅ You should see
 ```
@@ -116,5 +133,5 @@ Response DTO
   | JSON Response
   v
 Client
-'''
+```
 
