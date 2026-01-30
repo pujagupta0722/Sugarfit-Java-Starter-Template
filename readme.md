@@ -10,7 +10,6 @@ This project is a production-ready Spring Boot service starter template designed
 ### Prerequisites
 - Java 17
 - Maven
-- Docker (optional)
 
 ---
 
